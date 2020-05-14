@@ -6,7 +6,7 @@ It requires an Orange Pi with Domoticz, Semtech LoRa module, and the [LoRa Packe
 
 I guess it is not very complicated to adapt to a Raspberry Pi and another Packet Forwarder. 
 
-<img src="images/config.png" data-origin="images/config.png" alt="OrangePi" width="400">
+<img src="images/config.png" data-origin="images/config.png" alt="OrangePi" width="800">
 
 <img src="images/Wiring.JPG" data-origin="images/Wiring.JPG" alt="OrangePi" width="400">
 
