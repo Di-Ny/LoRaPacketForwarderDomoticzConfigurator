@@ -54,7 +54,7 @@
     </description>
     <params>        
         <param field="Mode1" label="Packet forwarder path" width="300px" required="true" default="/home/pi/LoRaPacketForwarder"/>
-        <param field="Address" label="LoRa Server" required="true" width="200px">
+        <param field="Address" label="LoRa Server" required="true" width="300px">
             <options>
                 <option label="Localhost" value="127.0.0.1" default="true"/>
                 <option label="TTN EU" value="router.eu.thethings.network" />
@@ -62,7 +62,7 @@
             </options>
         </param>
         <param field="Port" label="LoRa Server port" required="true" default="1700" width="75px"/>
-        <param field="Mode2" label="OnBoard Chip" required="true" width="200px">
+        <param field="Mode2" label="OnBoard Chip" required="true" width="300px">
             <options>
                 <option label="SX1272" value="SX1272"/>
                 <option label="SX1273" value="SX1273" />
@@ -75,7 +75,7 @@
                 <option label="RFM98" value="RFM98" />
             </options>
         </param>
-        <param field="Mode3" label="Frequency" required="true" width="200px">
+        <param field="Mode3" label="Frequency" required="true" width="300px">
             <options>
                 <option label="EU868 - 868.100MHz" value="868.1" default="true"/>
                 <option label="EU868 - 868.300MHz" value="868.3"/>
@@ -96,7 +96,7 @@
                 <option label="US915 - 904.600MHz" value="904.6"/>
             </options>
         </param>
-        <param field="Mode4" label="LoRa Configuration" required="true" width="200px">
+        <param field="Mode4" label="LoRa Configuration" required="true" width="300px">
             <options>
                 <option label="LoRaWAN DR0: SF12,BW125,CR4/5" value="0" default="true"/>
                 <option label="LoRaWAN DR1: SF11,BW125,CR4/5" value="1"/>
@@ -116,7 +116,7 @@
                 <option label="SF8  LongRange:       SF8,BW62.5,CR4/5" value="15"/>
             </options>
         </param>
-        <param field="Mode5" label="Latitude,Longitude,Altitude,Mail" width="200px" required="true" default="43.0,0.3,10,contact@gmail.com"/>
+        <param field="Mode5" label="Latitude,Longitude,Altitude,Mail" width="300px" required="true" default="43.0,0.3,10,contact@gmail.com"/>
         <param field="Mode6" label="Debug" width="75px">
             <options>
                 <option label="True" value="Debug"/>
